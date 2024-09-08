@@ -7,7 +7,7 @@
 
 /* ---------------body----------- */
 body{
-    background-color:  rgba(236, 232, 232, 0.507);
+    background-color:  rgba(236, 232, 232, 0.932);
 }
 
 body::-webkit-scrollbar{
@@ -19,6 +19,7 @@ body::-webkit-scrollbar{
     background-color: white;
     height: 3.8rem;
     position: sticky;
+    top: 0;
 }
 
 .head-container{
@@ -217,9 +218,6 @@ body::-webkit-scrollbar{
   color: rgb(39, 38, 38);
 }   
 
-.elect-flex{
-    
-}
 
 /* --------------end----------------- */
 
@@ -310,27 +308,179 @@ body::-webkit-scrollbar{
 
 /* -------------end-------------- */
 
-/* --------------TV & Appliances--------- */
-
-.tvAp{
-    background-color: white;
-    height: 23rem;
-    margin: 8px 20px;
-    padding: 20px 1px;
-    width: 50%;
+/* -------top deals on house and appliances-------- */
+.Room{
+    margin: 10px 20px;
+    padding: 2px 0px;
+    height: 42.5rem; 
+    display: flex;
+    gap: 10px;
+      
 }
-.tvAp-flex{
-    padding: 2rem 2px;
+
+.Room-column1{
+    width: 70%;
+}
+
+.Part1{
+  height: 21rem;
+  background-color: white;
+  margin-bottom: 5px;  
+}
+
+.part1-head{
+    display: flex;
+}
+
+.part1-head-h1{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: rgb(87, 85, 85);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.part1-flex{
+    padding: 2rem 1em;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content: space-around;
+    
 }
 
-.tvAp-image{
+.part1-flex-1{
+    border: 1px solid rgba(224, 217, 217, 0.87);
+    border-radius: 6px;
+    width: 12.3rem;
+    height: 16rem;
+    text-align: center;  
+}
+
+.part1-flex-1:hover{
+    box-shadow: 2px 2px 10px grey;
+}
+
+.Room-image{
     width: 100%;
-    margin-top: 1.5rem;
-    margin-bottom: rem;
-    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    height: 9rem;
     object-fit: contain;
+}
+
+.Room-detail-1{
+    font-size: 1.1rem;
+    color: rgb(146, 144, 144);
+    margin-bottom: 0.3r;
+}
+
+.Part2{
+    background-color: white;
+    height: 21rem;
+}
+
+.Room-column2{
+   width: 40%;
+   background-color: white;    
+}
+
+/* ------diwali banner-------- */
+.Room-column2{
+
+}
+
+.banner_img{
+    width: 100%;
+    height: 100%;
+    object-fit: fit;
+}
+
+/* -----footer------------ */
+
+.footer{
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    padding: 40px 40px;
+}
+
+.footer-flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 20px;
+    
+}
+
+.f-content{
+    width: 50%;
+    color: rgb(134, 126, 126);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.footer-content h1{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.footer-content .list li{
+    list-style: none;
+    margin-bottom: 15px;
+    
+}
+
+.footer-content .list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.social h1{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.social-list a{
+    margin-right: 1rem;
+}
+
+.facebook{
+    width: 2rem;
+    border-radius: 10px;  
+}
+
+.instagram{
+    width: 2rem;
+    border-radius: 10px;
+}
+
+/* -------borderline0---------- */
+.border-line{
+    border-bottom: 0.5px solid rgba(139, 134, 134, 0.603);
+    margin-top: 2.5rem;
+}
+
+/* ----end----------- */
+.end{
+    padding: 0 3rem;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.end a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.end a:hover{
+    color: blue;
 }
